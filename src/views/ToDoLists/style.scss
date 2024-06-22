@@ -1,0 +1,62 @@
+.list-todo-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    input {
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        padding: 7px;
+        font-size: 1.2rem;
+        cursor: pointer;
+
+        &:focus {
+            outline: 1px solid #26b7ff;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        padding: 12px 15px;
+    }
+
+    .add-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .add:hover {
+            background-color: #939393;
+        }
+    }
+
+    .show-list {
+        .list-child {
+            &:first-child {
+                margin-top: 20px;
+                border-top: 1px solid #939393;
+            }
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 1px solid #939393;
+
+            .list-action {
+                .edit {
+                    margin-right: 10px;
+                    background-color: #0013c0;
+                    color: #fff;
+                }
+
+                .delete {
+                    background-color: #df0000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.list-users-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    table {
+        border-collapse: collapse;
+
+        td {
+            padding: 10px;
+            border: 1px solid #ffffff;
+        }
+
+        thead {
+            background-color: #06a646;
+        }
+
+        .btn-action {
+            display: flex;
+            gap: 10px;
+
+            button {
+                padding: 10px 15px;
+                border-radius: 10px;
+                cursor: pointer;
+                background-color: #06a646;
+                color: #fff;
+                border: 1px solid #fff;
+
+                &:hover {
+                    background-color: #058839;
+                    transition: .7s ease;
+                    color: #ffffff;
+                }
+
+                &:nth-child(2) {
+                    background-color: #e20000;
+
+                    &:hover {
+                        background-color: #b80000;
+                        transition: .7s ease;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.Details-list-users-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #06a646;
+        color: #fff;
+        border: 1px solid #fff;
+
+        &:hover {
+            background-color: #058839;
+            transition: .7s ease;
+            color: #ffffff;
+        }
+    }
+    table {
+        border-collapse: collapse;
+
+        td {
+            border: 1px solid #ffffff;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: #06a646;
+        }
+    }
+}

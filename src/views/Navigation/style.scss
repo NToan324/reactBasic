@@ -1,0 +1,26 @@
+.navigation-container {
+    a {
+        text-decoration: none;
+    }
+    background-color: aqua;
+    width: 100%;
+
+    .navigation-links {
+        background-color: #727272;
+        display: flex;
+        justify-content: flex-start;
+
+        a {
+            padding:15px 18px;
+            color: #fff;
+
+            &:hover {
+                background-color: #c2c2c2;
+            }
+
+            &.active {
+                background-color: #25a84f;
+            }
+        }
+    }
+}
